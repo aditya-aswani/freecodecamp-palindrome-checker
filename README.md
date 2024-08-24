@@ -1,1 +1,1 @@
-This is a freecodecamp project where I make a palindrome checker
+This is a freecodecamp project where I make a palindrome checker.
