@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Enter a word and check whether it's a palindrome!">
-    <meta name="keywords" content="freeCodeCamp, palindrome, JavaScript">
-    <meta name="author" content="Aditya Aswani">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Enter a word and check whether it's a palindrome!">
+        <meta name="keywords" content="freeCodeCamp, palindrome, JavaScript">
+        <meta name="author" content="Aditya Aswani">
 
-    <title>Palindrome Checker</title>
+        <title>Palindrome Checker</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./images/racing-car.png" type="image/x-icon">
-</head>
-<body>
-    <main class="flex">
-        <div id="heading" class="border round_border">
-            <h1 >Is it a Palindrome?🤔</h1>
-        </div>
-        <div class="border flex round_border">
-            <h2>🤗Enter in text to check for a palindrome:🤩</h2>
-            <div id="input" class="flex">
-                <input class="round_border"></input>
-                <button class="round_border dark_background">Check</button>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="./images/racing-car.png" type="image/x-icon">
+    </head>
+    <body>
+        <main class="flex">
+            <div id="heading" class="border round_border">
+                <h1 >Is it a Palindrome?🤔</h1>
             </div>
-        </div>
-        <div id="desc" class="border flex round_border">
-            <h3>
-                💡A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
-            </h3>
-        </div>
-    </main>
-    <script src="scripts.js"></script>
-</body>
+            <div class="border flex round_border">
+                <h2>🤗Enter in text to check for a palindrome:🤩</h2>
+                <div id="input" class="flex">
+                    <input id="text-input" class="round_border"></input>
+                    <button id="check-btn" class="round_border dark_background" type="button">Check</button>
+                </div>
+                <div id="result"></div>
+            </div>
+            <div id="desc" class="border flex round_border">
+                <h3>
+                    💡A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+                </h3>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>
