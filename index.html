@@ -18,18 +18,20 @@
     <link rel="icon" href="./images/racing-car.png" type="image/x-icon">
 </head>
 <body>
-    <main>
+    <main class="flex">
         <h1>Is it a Palindrome?</h1>
-            <div>
-                <h2>Enter in text to check for a palindrome:</h2>
-                <div id="input">
-                    <input></input>
-                    <button>Check</button>
-                </div>
+        <div class="border flex">
+            <h2>Enter in text to check for a palindrome:</h2>
+            <div id="input" class="flex">
+                <input></input>
+                <button>Check</button>
             </div>
-            <div>
-                <h3 id="desc">A palindrome is a word or sentence that's spelled the same way both forward and backward, ingorning punctuation, case, and spacing.</h3>
-            </div>
+        </div>
+        <div class="border flex">
+            <h3 id="desc">
+                A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+            </h3>
+        </div>
     </main>
     <script src="scripts.js"></script>
 </body>
